@@ -1,0 +1,65 @@
+#LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-cli
+langchain_experimental 
+faiss-cpu
+
+#OPen-AI Integrations
+langchain-openai
+openai
+
+#Anthropic Integration
+langchain-anthropic
+
+#Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+google-api-core
+
+#HuggingFace Integration
+langchain-huggingface
+transformers
+huggingface-hub
+huggingface_hub[hf_xet]
+hf_xet
+
+#Environment Variable Manager
+python-dotenv
+
+#Machine Learning Utilities
+numpy
+scikit-learn
+pandas
+
+#Output Structured
+pydantic
+
+#Graph
+grandalf
+
+#Progress Bar
+beautifulsoup4
+tqdm
+
+#UI development
+streamlit 
+
+
+#PDF LOADERS
+pypdf
+unstructured
+unstructured[local-inference]
+pytesseract #OCR
+pypdfium2 #DIGItal PDF
+pymupdf
+selenium 
+pinecone
+
+#Embedding
+sentence-transformers
+#Vector Store
+langchain-pinecone
+tiktoken
+chromadb
