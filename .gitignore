@@ -1,4 +1,36 @@
-.env 
-rag/ .env 
-rag/ 
-__pycache__/ 
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environment (your venv is named rag)
+rag/
+
+# Environment variables
+.env
+rag/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# LangChain / Vector DBs / HuggingFace caches
+2_Text_Splitter/huggingface/
+3_Vector_Store/chroma_langchain_db/
+3_Vector_Store/huggingface/
+4_RAG_Application/faiss_index/
+4_RAG_Application/huggingface/
+
+# Logs
+*.log
+
+# IDE / Editor configs
+.vscode/
+.idea/
