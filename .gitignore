@@ -5,7 +5,12 @@ __pycache__/
 *.pyd
 *.so
 *.dll
-
+# HuggingFace models & safetensors
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
 # Virtual environment (your venv is named rag)
 rag/
 
