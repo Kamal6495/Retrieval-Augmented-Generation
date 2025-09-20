@@ -5,12 +5,18 @@ __pycache__/
 *.pyd
 *.so
 *.dll
-# HuggingFace models & safetensors
+# HuggingFace cache & model weights
 *.safetensors
 *.bin
 *.pt
 *.pth
 *.ckpt
+2_Text_Splitter/huggingface/
+3_Vector_Store/huggingface/
+4_RAG_Application/huggingface/
+
+
+
 # Virtual environment (your venv is named rag)
 rag/
 
